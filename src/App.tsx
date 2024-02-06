@@ -35,6 +35,11 @@ export default function Page() {
 
   return (
     <div className="centered-container">
+      <a
+        className="github-link"
+      >
+        made with ❤️ by mikan
+      </a>
       <div className="valentine-container">
         {yesPressed ? (
           <>
